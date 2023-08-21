@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-color: #8B91E5;
+}
+
+.menu-icon{
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.footer-wrap{
+  background-color: #2B1A6A;
+}
+
+.footer-wrap .foot-paragraph{
+  color: #fff;
+  max-width: 30rem;
+}
+
+.footer-serviece-heading{
+  margin: 2rem 0 1.5rem 0;
+}
+
+.footer-dev-links a{
+  margin-bottom: .5rem;
+  text-decoration: underline;
+}
+
+.fl-2{
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.fl-2 a{
+  margin-right: 1.7rem;
+}
+
+.fl-2 a:hover{
+  text-decoration: underline;
+}
+
+/* .navigation{
+  background-color: #4A3294;
+} */
+
+@media not all and (min-width: 768px) {
+  .navigation{
+    background-color: #4A3294;
+
+    translate: 1000px;
+    transition: translate .5s;
+  }
+  .navigation.wi{
+    translate: 0;
+    transition: translate .3s;
+  }
+  .menu.fixed{
+    position: fixed;
+    right: 0;
+  }
+
+  .navigation ul{
+    margin: 5rem 0 0 3rem;
+  }
+
+  .navigation ul li{
+    margin-bottom: 1.5rem;
+  }
+}
+
+.nav-width {
+  width: 91%;
+  margin: 0 auto;
+  padding-top: 1.3rem;
+}
+
+.hero-items {
+  /* width: 91%;
+  margin: 0 auto; */
+  position: relative;
+}
+.hero-items .hero-contact-btn {
+  background-color: #4A3294;
+  color: #fff;
+  transition: background .6s;
+}
+
+.hero-items .hero-contact-btn:hover {
+  background-color: #2B1A6A;
+  color: #fff;
+}
+
+.hero-items .hero-img-wrap img {
+  width: 100%;
+  position: absolute;
+  right: -9rem;
+  bottom: -286px;
+  margin-left: -24rem;
+}
+
+/* @media only screen and(min-width: 769px){
+  .hero-img-wrap{
+    left: 41rem;
+  }
+} */
+
+/*# sourceMappingURL=style.css.map */
