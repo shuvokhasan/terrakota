@@ -5,7 +5,4 @@ menu.addEventListener('click', hamburger);
 
 function hamburger(){
     nav.classList.toggle('wi');
-    // menu.classList.toggle('fixed');
-
-    console.log(1);
 }
