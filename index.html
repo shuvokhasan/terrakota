@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="dist/output.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/src/imgs/fav.png">
+    <link href="/dist/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
@@ -16,16 +17,16 @@
     <div class="hero relative" style="overflow: hidden;">
         
         <div class="nav-wrap relative" style="z-index: 5;">
-            <img class="absolute left-0" style="z-index: -1;" src="imgs/shapes-1.png" alt="">
+            <img class="absolute left-0" style="z-index: -1;" src="/src/imgs/shapes-1.png" alt="">
             <div class="nav-width flex justify-between items-center">
                 
-                <a href="#"><h1 class="font-bold text-lg text-white cursor-pointer">TERRAKOTA</h1></a>
+                <a href="index.html"><img src="/src/imgs/logo.png" width="35%" alt="TERRAKOTA"></a>
                 <div id="menu" class=" md:hidden" style="z-index: 1000;">         <!-- Nav menu icon -->
                     <button><span class="menu-icon material-symbols-outlined text-white cursor-pointer">menu</span></button>
                 </div>
 
                 <!-- Nav menu links -->
-                <nav id="nav" class="navigation max-md:h-screen max-md:absolute max-md:z-20 max-md:w-full max-md:top-0 max-md:left-0 md:block">
+                <nav id="nav" class="navigation  max-md:h-screen max-md:absolute max-md:z-20 max-md:w-full max-md:top-0 max-md:left-0 md:block">
                     <ul class="md:flex font-bold text-white">
                         <li class="px-5"><a href="#">Home</a></li>
                         <li class="px-5"><a href="#">Products</a></li>
@@ -38,30 +39,100 @@
 
         <div class="flex justify-center items-center w-11/12" style="margin:0 auto">
             <div class="hero-items w-full  md:mt-36 flex flex-col justify-center" style="z-index: 2;">
+
+                <!-- Blank height -->
+                <!-- <div class="max-md:h-1/6 max-md:w-1/6"></div> -->
+
                 <h1 class="md:text-7xl max-md:text-5xl md:w-1/2 font-bold mt-20 text-white">Delivering Beyond Borders</h1>
                 <a href="#" class="hero-contact-btn w-fit mt-8 px-8 py-4 rounded-xl font-bold">Get In Touch</a>
             </div>
-            <img class="absolute md:w-1/2 md:max-w-2xl left-1/2 md:left-1/2 bottom-0" style="z-index: 1;" src="imgs/hero.jpg" alt="">
+            <img class="absolute md:w-1/2 md:max-w-2xl left-1/2 md:left-1/2 bottom-0" style="z-index: 1;" src="/src/imgs/hero.jpg" alt="">
         </div>
     </div>
 
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis, sint ab, iste voluptate distinctio, quae minima quidem perferendis asperiores nisi rerum neque necessitatibus mollitia voluptatibus? Ipsa quibusdam velit eaque quam, eveniet accusamus veritatis nesciunt quisquam amet sunt ab facere at est sed? Quasi nihil officia sunt neque placeat qui culpa commodi? Deleniti ad dignissimos at, cumque dolor in dolores temporibus sed saepe nulla, ipsum molestiae, optio provident esse ut amet placeat ipsam. Sequi delectus quibusdam illo debitis nesciunt asperiores?</p>
+
+
+
+    <!-- Service Section-->
+    <div>           
+        <div class="max-md:px-4">
+            <span class="block text-2xl pt-4">SERVICES</span>
+            <h3 class="text-4xl font-bold pt-4">What We Do?</h3>
+            <p class="foot-paragraph py-4 text-xl font-light">TERRAKOTA covers all aspects of custom software development, maintenance & support. With an expert tech team and years of experience, we are paired with client's businesses along with building modern and feature-rich solutions for web, desktop and mobile apps.</p>
+        </div>
     </div>
+
+    <!-- Service Cards -->
+    <div>
+        <div class="flex flex-col items-center">
+            <div class="service-card w-11/12 bg-slate-500 rounded-2xl">
+                <h2 class="text-xl py-4 px-4">Custom Software
+                    Development</h2>
+                    <p class="font-light px-4 pb-4">This service covers industry-specific & cross platform with unique functionality that meets custom requirements, automates tasks, solve time complexities and optimize operations. We offer readymade (CRM, ERP, PoS etc) & Custom applications both.</p>
+            </div>
+            <div class="service-card mt-4 w-11/12 bg-slate-500 rounded-2xl">
+                <h2 class="text-xl py-4 px-4">Mobile Apps
+                    Development</h2>
+                    <p class="font-light px-4 pb-4">We provide end-to-end native & hybrid mobile app (Android & iOS) development services with morden tech and user experience. We assist entrepreneurs, start-ups & enterprises in transforming their ideas into profitable business models.p>
+            </div>
+            <div class="service-card mt-4 mb-4 w-11/12 bg-slate-500 rounded-2xl">
+                <h2 class="text-xl py-4 px-4">DevOps
+                    Engineering</h2>
+                    <p class="font-light px-4 pb-4">We makes this possible by bringing business, development and operation teams together and applying automated processes to streamline. In today's world, the ability to roll out improved business capabilities continuously has become essential.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Methodology -->
+    <div>
+        <div class="max-md:px-4">
+            <span class="block text-2xl pt-4">METHODOLOGY</span>
+            <h3 class="text-4xl font-bold pt-4">How We Get It Done?</h3>
+            <p class="foot-paragraph py-4 text-xl font-light">We work closely with the customer to understand the project objective and business needs. We imply strong methodologies and effective developments phases that facilitate substantial communication and assure that the client is kept in the loop while we strive to achieve required final outcome.</p>
+        </div>
+
+        <!-- Methodology Cards -->
+        <div class="flex flex-col max-md:mx-4">
+            <div class="method-card mb-4 w-11/12">
+                <div class="flex items-center">
+                    <span class="block text-3xl mr-4 font-semibold">1</span>
+                    <h3>Requirement & Analysis</h3>
+                </div>
+                <p>Understand & sort out the needs. After that, project is planned for time, cost, infrastructure and how many engineers will be needed.</p>
+            </div>
+            <div class="method-card mb-4 w-11/12">
+                <div class="flex items-center">
+                    <span class="block text-3xl mr-4 font-semibold">2</span>
+                    <h3>Prototyping</h3>
+                </div>
+                <p>Here, start convarting requirements to graphical user interface. Our creative team reviews and revises materials until aligns with goals.</p>
+            </div>
+            <div class="method-card mb-4 w-11/12">
+                <div class="flex items-center">
+                    <span class="block text-3xl mr-4 font-semibold">3</span>
+                    <h3>Development</h3>
+                </div>
+                <p>Once the design is ready, goes to dev team where all system architecture, database & functionality take the form of written code.</p>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <footer>
         <div class="footer-wrap">
             <div class="md:w-11/12 md:flex md:justify-between" style="margin: 0 auto">
                 <div class="max-md:px-4">
                     <h1 class="max-md:pt-4 md:pt-6 font-bold text-4xl text-yellow-400 cursor-pointer">TERRAKOTA</h1>
-                    <p class="foot-paragraph max-md:py-4 md:py-4">Fast growing software development company located in Bangladesh. Over the last 4+ years, we have served more than 1.6k+ customers of various industries. In our endeavor, we have a highly skilled developer, designer, analyst & management team. With many happy clients at home and abroad TERRAKOTA Technologies is moving forward.
+                    <p class="foot-paragraph py-4 text-sm">Fast growing software development company located in Bangladesh. Over the last 4+ years, we have served more than 1.6k+ customers of various industries. In our endeavor, we have a highly skilled developer, designer, analyst & management team. With many happy clients at home and abroad TERRAKOTA Technologies is moving forward.
     
                     Our goal is to take the information technology sector of Bangladesh to the next level and make accessible to people of every corner of our country.</p>
                 </div>
     
                 <div class="text-white max-md:ml-4">
                     <h3 class="footer-serviece-heading font-bold">Development & IT</h3>
-                    <div class="footer-dev-links flex flex-col">
+                    <div class="footer-dev-links flex flex-col text-sm">
                         <a href="">Design & Development</a>
                         <a href="">Web App Development</a>
                         <a href="">Mobile App Development</a>
@@ -72,7 +143,7 @@
     
                 <div class="text-white max-md:ml-4">
                     <h3 class="footer-serviece-heading font-bold">Products From Us</h3>
-                    <div class="footer-dev-links flex flex-col">
+                    <div class="footer-dev-links flex flex-col text-sm">
                         <a href="">Goonjon</a>
                         <a href="">Anonymous Messeging App</a>
                         <a href="">Home Rental App</a>

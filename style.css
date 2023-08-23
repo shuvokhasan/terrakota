@@ -48,17 +48,27 @@ body {
   background-color: #4A3294;
 } */
 
+.service-card{
+  background-color: #9EA2E9;
+  transition: box-shadow 0.5s ease-in-out;
+}
+.service-card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 @media not all and (min-width: 768px) {
+  .navigation.wi{
+    translate: 0;
+    transition: translate .3s;
+  }
+  
   .navigation{
     background-color: #4A3294;
 
     translate: 1000px;
     transition: translate .5s;
   }
-  .navigation.wi{
-    translate: 0;
-    transition: translate .3s;
-  }
+  
   .menu.fixed{
     position: fixed;
     right: 0;
